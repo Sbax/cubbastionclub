@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { breakpoints, fontFamilies } from "../theme/theme";
+import { breakpoints, colors, fontFamilies } from "../theme/theme";
 
 const Title = styled.h1`
   margin-top: 5rem;
