@@ -1,0 +1,22 @@
+[
+  {
+    "name": "heysbax",
+    "image": "/assets/heysbax.png",
+    "link": "http://heysbax.cubbastion.club",
+    "tags": [
+      "gaming",
+      "development",
+      "learning"
+    ]
+  },
+  {
+    "name": "tappuccha",
+    "image": "/assets/tappuccha.png",
+    "link": "http://tappuccha.cubbastion.club",
+    "tags": [
+      "gaming",
+      "puccha",
+      "tappa"
+    ]
+  }
+]
