@@ -8,13 +8,21 @@ fields:
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: image
-    label: image
+    label: Image
   - type: text
     name: link
-    label: link
+    label: Link
   - type: list
     name: tags
-    label: tags
+    label: Tags
+  - name: color
+    type: text
+    config:
+      required: false
+      min: 7
+      max: 7
+    label: Color
+    description: 'Hex code for custom color (ex. #000000)'
