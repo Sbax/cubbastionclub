@@ -10,7 +10,12 @@ const Title = styled.h1`
   text-align: center;
 
   > span {
+    display: inline-block;
     color: ${colors.accent};
+  }
+
+  @media only screen and (max-width: ${breakpoints.tablet}) {
+    margin-top: 0;
   }
 `;
 
