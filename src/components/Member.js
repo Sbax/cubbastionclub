@@ -43,6 +43,11 @@ const Tags = styled.ul`
   }
 `;
 
+const Tag = styled.li`
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.6rem;
+`;
+
 const Link = styled.a`
   opacity: 1;
   color: inherit;
@@ -50,6 +55,10 @@ const Link = styled.a`
   ${Title}, ${Tags} {
     opacity: 0.6;
     transition: opacity 300ms ease-in-out;
+  }
+
+  ${Tag} {
+    transition: background-color 300ms ease-in-out;
   }
 
   &:hover {
@@ -62,18 +71,22 @@ const Link = styled.a`
       box-shadow: ${shadows.default};
       transform: translateY(-0.33rem);
     }
+
+    ${Tag} {
+      background-color: ${({ color }) => color};
+    }
   }
 `;
 
-function Member({ image, name, tags, link }) {
+function Member({ image, name, tags, link, color }) {
   return (
-    <Link href={link}>
+    <Link href={link} color={color}>
       <Card>
         <Image src={image} alt={`Avatar di ${name}`} />
         <Title>{name}</Title>
         <Tags>
           {tags.map((tag) => (
-            <li key={tag}>#{tag}</li>
+            <Tag key={tag}>#{tag}</Tag>
           ))}
         </Tags>
       </Card>
