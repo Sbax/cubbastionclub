@@ -38,14 +38,15 @@ const Title = styled.h1`
 const Tags = styled.ul`
   display: flex;
 
-  > * + * {
-    margin-left: 0.75rem;
-  }
+  flex-wrap: wrap;
+  justify-content: center;
 `;
 
 const Tag = styled.li`
   padding: 0.25rem 0.5rem;
   border-radius: 0.6rem;
+
+  margin: 0.2rem;
 `;
 
 const Link = styled.a`
