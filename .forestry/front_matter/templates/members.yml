@@ -26,3 +26,5 @@ fields:
       max: 7
     label: Color
     description: 'Hex code for custom color (ex. #000000)'
+pages:
+- src/data/data.json
