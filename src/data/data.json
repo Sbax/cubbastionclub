@@ -1,5 +1,16 @@
 [
   {
+    "name": "dem",
+    "image": "/assets/dem.png",
+    "link": "https://dem.cubbastion.club/",
+    "tags": [
+      "gaming",
+      "disegno",
+      "memes"
+    ],
+    "color": "#A04837"
+  },
+  {
     "name": "heysbax",
     "image": "/assets/heysbax.png",
     "link": "http://heysbax.cubbastion.club",
