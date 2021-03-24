@@ -1,5 +1,16 @@
 [
   {
+    "name": "dinerd",
+    "image": "/assets/dino.png",
+    "link": "dinerd.cubbastion.club",
+    "tags": [
+      "dinocosta",
+      "shpacchet",
+      "gaming"
+    ],
+    "color": "#B4311B"
+  },
+  {
     "name": "dem",
     "image": "/assets/dem.png",
     "link": "https://dem.cubbastion.club/",
